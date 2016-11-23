@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Snow from 'react-snow-effect';
-require('style!css!./css/style.css');
 
 let Site = React.createClass({
 	render: function () {
