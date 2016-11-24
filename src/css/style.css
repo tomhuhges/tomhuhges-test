@@ -75,7 +75,7 @@ article {
 	opacity: 0.4;
 }
 
-#title-box img#computer {
+.container img#computer {
 	width: 400px;
 	height: 400px;
 }
