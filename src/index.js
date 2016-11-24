@@ -4,7 +4,7 @@ import Snow from 'react-snow-effect';
 
 let gif = document.createElement('img');
 gif.setAttribute('src', 'assets/img/computer.gif');
-gir.setAttribute('width', '500px');
+gif.setAttribute('width', '500px');
 document.body.appendChild(gif);
 
 let snow = document.createElement('div');
