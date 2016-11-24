@@ -50,8 +50,8 @@ article {
 	max-width: 960px;
 	margin: 8em auto;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 #main {
@@ -62,6 +62,10 @@ article {
 	background: #fff;
 }
 
+#snow canvas {
+	min-height: 100vh;
+}
+
 #title-box {
 	width:500px;
 	line-height: 1.5em;
@@ -69,4 +73,9 @@ article {
 
 #title-box h2 {
 	opacity: 0.4;
+}
+
+#title-box img#computer {
+	width: 400px;
+	height: 400px;
 }
