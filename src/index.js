@@ -7,14 +7,14 @@ googlefonts.href = 'https://fonts.googleapis.com/css?family=Source+Code+Pro:200,
 googlefonts.setAttribute('rel', 'stylesheet');
 document.head.appendChild(googlefonts);
 
-let main = document.createElement('div');
-main.id = 'main';
-document.body.appendChild(main);
+let app = document.createElement('div');
+app.id = 'app';
+document.body.appendChild(app);
 
 let Site = React.createClass({
 	render: function () {
 		return (
-			<div>
+			<div id="main">
 				<div id="snow"><Snow /></div>
 				<div class="container">
 					<div id="title-box">
@@ -37,5 +37,5 @@ let Site = React.createClass({
 
 ReactDOM.render(
 	<Site />,
-	document.getElementById('main')
+	document.getElementById('app')
 );
