@@ -14,9 +14,9 @@ document.body.appendChild(app);
 let Site = React.createClass({
 	render: function () {
 		return (
-			<div id="main">
+			<div id="main" className="page">
 				<div id="snow"><Snow /></div>
-				<div class="container">
+				<div className="container">
 					<div id="title-box">
 						<h1>Tom Hughes</h1>
 						<h2>javascript developer</h2>
