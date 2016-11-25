@@ -33,7 +33,7 @@ let Site = React.createClass({
 						<a>code</a> <a>art</a> <a>writing</a>
 						<p>ok@tomhuhges.com +44 772 5577 327</p>
 					</div>
-					<img id="computer" src="assets/img/computer4.gif" />
+					<img id="computer" src="assets/img/computer5.gif" />
 				</div>
 			</div>
 			);
