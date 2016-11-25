@@ -4,28 +4,20 @@
 }
 
 body {
-
 	margin: 0;
-
-	font-family: 'Source Code Pro', monospace;
-	color: #333;
-
-	background: #f26d7c; /* Old browsers */
-	background: -moz-linear-gradient(top,  #f26d7c 0%, #6ecff6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #f26d7c 0%,#6ecff6 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #f26d7c 0%,#6ecff6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26d7c', endColorstr='#6ecff6',GradientType=0 ); /* IE6-9 */
-
 	background: #4e64ff;
-}
+	color: #333;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 200;}
 
 h1 {
-	//font-family: 'Astloch';
+	font-size: 36px;
 	font-weight: 200;
-	font-size: 60px;
 }
 
 a {
+	color: #fff;
+	font-weight: 400;
 	text-decoration: underline;
 }
 
