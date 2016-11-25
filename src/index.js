@@ -29,8 +29,8 @@ let Site = React.createClass({
 						<span style={{color: 'cyan'}}>e</span>
 						<span style={{color: 'pink'}}>s</span>
 						<span style={{color: 'turquoise'}}>6</span>. in fact, this website is built using both.</p>
-						<p>as well as writing maintainable code, i'm pretty good at design and also make 3d animations and sometimes comics in my spare time.</p>
-						<a>code</a> <a>art</a> <a>writing</a>
+						<p>as well as writing maintainable code, i'm pretty good at design and also make 3d animations in my spare time.</p>
+						<a href="https://twitter.com/tomhuhges">twitter</a> <a href="https://github.com/tomhuhges">github</a>
 						<p>ok@tomhuhges.com +44 772 5577 327</p>
 					</div>
 					<img id="computer" src="assets/img/computer5.gif" />
