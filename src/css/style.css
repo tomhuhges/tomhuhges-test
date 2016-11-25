@@ -48,7 +48,9 @@ article {
 
 .container {
 	max-width: 960px;
-	margin: 8em auto;
+	max-height: 100vh;
+	margin: 0 auto;
+	padding: 8em 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
