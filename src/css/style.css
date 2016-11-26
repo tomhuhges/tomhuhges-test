@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	background: #4e64ff;
 	color: #333;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Source Code Pro', 'Lucida Console', monospace;
 	font-weight: 200;}
 
 h1 {
