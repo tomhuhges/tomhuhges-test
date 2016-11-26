@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 
 let googlefonts = document.createElement('link');
 googlefonts.href = 'https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400|Astloch';
-googlefonts.setAttribute('rel', 'preload');
-googlefonts.setAttribute('as', 'style');
-googlefonts.setAttribute('onload', 'this.rel="stylesheet"');
+googlefonts.setAttribute('rel', 'stylesheet');
+// googlefonts.setAttribute('rel', 'preload');
+// googlefonts.setAttribute('as', 'style');
+// googlefonts.setAttribute('onload', 'this.rel="stylesheet"');
 document.head.appendChild(googlefonts);
 
 let app = document.createElement('div');
