@@ -34,7 +34,7 @@ let Site = React.createClass({
 						<span style={{color: 'pink'}}>s</span>
 						<span style={{color: 'turquoise'}}>6</span></b>. in fact, this website is built using both.</p>
 						<p>as well as writing maintainable code, i'm pretty good at design and also make 3d animations in my spare time.</p>
-						<p>ok@tomhuhges.com +44 772 5577 327</p>
+						<p><a href="mailto:ok@tomhuhges.com">ok@tomhuhges.com</a> +44 772 5577 327</p>
 					</div>
 					<img id="computer" src="assets/img/computer5.gif" />
 				</div>
