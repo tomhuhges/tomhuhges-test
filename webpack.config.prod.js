@@ -41,6 +41,8 @@ export default function prod (options) {
       [{
         from: './src/assets',
         to: 'assets'
+      },{
+        from: 'CNAME'
       }], {
         ignore: ['*.DS_Store']
       })
