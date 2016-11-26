@@ -6,7 +6,7 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 export default function prod (options) {
   return {
     output: {
-      publicPath: '/tomhuhges-test/',
+      //publicPath: '',
       filename: '[name].[chunkhash].js'
     },
     module: {
