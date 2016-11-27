@@ -22,7 +22,7 @@ let Site = React.createClass({
 						<h1>Tom Hughes</h1>
 						<h2>javascript developer</h2>
 						<a href="https://twitter.com/tomhuhges">twitter</a> <a href="https://github.com/tomhuhges">github</a>
-						<p><b>currently:</b> freelance (aka <a>hire me</a>)</p>
+						<p><b>currently:</b> freelance (aka <a href="mailto:ok@tomhuhges.com">hire me</a>)</p>
 						<p><b>previously:</b> lead developer and designer at springwise</p>
 						<p>hiya, my name is tom hughes and i'm a web developer based in london, uk. i specialize in javascript and like using new technologies like <b>
 						<span style={{color: 'red'}}>r</span>
