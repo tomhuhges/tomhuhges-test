@@ -8,7 +8,8 @@ import prod from './webpack.config.prod';
 let paths = {
   src: path.join(__dirname, '/src'),
   dist: path.join(__dirname, '/dist'),
-  css: path.join(__dirname, '/src/css')
+  css: path.join(__dirname, '/src/css'),
+  images: path.join(__dirname, '/src/assets/img')
 };
 
 let defaults = {
@@ -40,7 +41,13 @@ let defaults = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'tom hughes - js developer'
+      title: 'tom hughes - js developer',
+      template: './src/index.ejs'
+    }),
+    new HtmlWebpackPlugin({
+      filename: '200.html',
+      title: 'tom hughes - js developer',
+      template: './src/index.ejs'
     })
   ]
 };

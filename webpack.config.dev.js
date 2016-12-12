@@ -8,10 +8,7 @@ export default function dev (options) {
       filename: '[name].[hash].js'
     },
     devServer: {
-      // Enable history API fallback so HTML5 History API based
-      // routing works. This is a good default that will come
-      // in handy in more complicated setups.
-      historyApiFallback: true,
+      historyApiFallback: true, // Enable history API fallback so HTML5 History API based routing works.
       hot: true,
       inline: true,
       stats: 'errors-only',
@@ -24,6 +21,11 @@ export default function dev (options) {
           test: /\.css$/,
           loaders: ['style', 'css'],
           include: options.paths.css
+        },
+        {
+          test: /\.(jpe?g|png|gif)$/i,
+          loader: 'file?name=[path][name].[hash].[ext]',
+          include: options.paths.images
         }
       ]
     },
