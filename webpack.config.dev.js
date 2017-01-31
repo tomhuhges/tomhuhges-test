@@ -22,11 +22,6 @@ export default function dev (options) {
           loaders: ['style', 'css'],
           include: options.paths.css
         },
-        {
-          test: /\.(jpe?g|png|gif)$/i,
-          loader: 'file?name=[path][name].[hash].[ext]',
-          include: options.paths.images
-        }
       ]
     },
     plugins: [

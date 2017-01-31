@@ -1,18 +1,83 @@
-* {
+  @import '../../node_modules/tachyons/css/tachyons.min.css';
+  /*
+		Tachyons overrides
+	*/
+
+  .link:focus {
+    outline: none;
+  }
+
+  .blue {
+    color: #0000ff;
+  }
+
+  .code {
+    font-family: 'Source Code Pro', 'Lucida Console', monospace;
+    font-weight: 400;
+  }
+  /*
+		custom
+	*/
+
+  .astloch {
+    font-family: 'Astloch', 'Source Code Pro', monospace;
+    font-weight: 200;
+  }
+
+  .p0 {
+    padding: 0;
+  }
+
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  @media screen and (min-width: 30em) {
+    .flex-nowrap-ns {
+      flex-wrap: nowrap;
+    }
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .flex-nowrap-m {
+      flex-wrap: nowrap;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .flex-nowrap-l {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+
+  @media screen and (min-width: 30em) {
+    .flex-reverse-ns {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .flex-reverse-m {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .flex-reverse-l {
+      flex-direction: column-reverse;
+    }
+  }
+
+  #main {
+    min-height: 100vh;
+  }
+  /** {
 	outline: none;
 	box-sizing: border-box;
-}
-
-body {
-	margin: 0;
-	color: #333;
-	font-family: 'Source Code Pro', 'Lucida Console', monospace;
-	font-weight: 400;
-}
-
-h1, h1 a {
-	font: 60px 'Astloch', 'Source Code Pro', monospace;
-	font-weight: 200;
 }
 
 a {
@@ -63,6 +128,10 @@ article {
 	padding: 10px;
 }
 
+#main {
+	transition: background 1s;
+}
+
 #client article {
 	flex: 0 1 45%;
 }
@@ -93,6 +162,10 @@ article {
 	color: #b8c1ff;
 }
 
+.homepage nav a {
+	color: #fff;
+}
+
 .homepage .content {
 	display: flex;
 	flex-direction: row;
@@ -116,4 +189,4 @@ article {
 .container img#computer {
 	width: 400px;
 	height: 400px;
-}
+}*/

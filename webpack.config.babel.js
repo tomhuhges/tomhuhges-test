@@ -30,12 +30,22 @@ let defaults = {
     ],
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
+        include: paths.src,
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.(jpe?g|png|gif)$/i,
+        loader: 'file?name=/assets/img/[name].[hash].[ext]',
+        include: paths.images
+      },
+      {
+        test: /\.svg$/,
+        loader: 'babel?presets[]=es2015,presets[]=react!svg-react'
       }
     ],
   },
@@ -58,7 +68,7 @@ if ( process.env.npm_lifecycle_event === 'build' ) {
 
   // prod config
   config = merge(
-    defaults, 
+    defaults,
     prod({
       paths: paths
     })

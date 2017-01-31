@@ -1,8 +1,8 @@
 import React from 'react'
-import pitchit from 'file!../../assets/img/pitchit.png'
-import springwise from 'file!../../assets/img/springwise.png'
-import caret from 'file!../../assets/img/caret.png'
-import tomhuhgesbot from 'file!../../assets/img/tomhuhgesbot.png'
+import pitchit from '../../assets/img/pitchit.png'
+import springwise from '../../assets/img/springwise.png'
+import caret from '../../assets/img/caret.png'
+import tomhuhgesbot from '../../assets/img/tomhuhgesbot.png'
 
 class CodePage extends React.Component {
 	render() {

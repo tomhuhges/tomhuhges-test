@@ -44,7 +44,7 @@ export default function prod (options) {
       },{
         from: 'CNAME'
       }], {
-        ignore: ['*.DS_Store']
+        ignore: ['*.DS_Store', '*.png', '*.gif', '*.jpg', '*.jpeg']
       })
     ]
   };
