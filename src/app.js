@@ -22,7 +22,7 @@ class App extends React.Component {
 					]}
 				/>
 				<div id="main" className={`page ${pageName} ${classNames} code flex justify-center pa4-m w-100 minh-100`}>
-					<div className="container w-80 w-90-m mw6-m mw8-l">
+					<div className="container w-90 mw6-m mw8-l">
 						<Header />
 						<ReactCSSTransitionGroup
 							transitionName="fade"

@@ -37,7 +37,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
     "build": "webpack -p",
-    "deploy": "npm run build && surge dist tomhuhges.com",
+    "deploy": "npm run build && surge dist tomhuhges-test.surge.sh",
     "deploy-old": "npm run build && git add . && git cam \"$m\" && git push && gh-pages -d dist"
   },
   "author": "",
