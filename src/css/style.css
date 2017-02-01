@@ -16,6 +16,27 @@
     font-weight: 400;
   }
   /*
+		React animation add ons
+	*/
+
+  .example-enter {
+    opacity: 0.01;
+  }
+
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+  .example-leave {
+    opacity: 1;
+  }
+
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+  /*
 		custom
 	*/
 
@@ -24,8 +45,26 @@
     font-weight: 200;
   }
 
-  .p0 {
+  .pr0 {
     padding: 0;
+  }
+
+  @media screen and (min-width: 30em) {
+    .pr0-ns {
+      padding: 0;
+    }
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .pr0-m {
+      padding: 0;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .pr0-l {
+      padding: 0;
+    }
   }
 
   .flex-nowrap {
