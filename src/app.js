@@ -8,6 +8,9 @@ class App extends React.Component {
 		const page = this.props.children
 		let pageName = page.props.route.path
 		pageName = pageName ? `${pageName}page` : 'homepage'
+		let classNames = pageName === 'codepage'
+			? 'bg-yellow dark-red'
+			: 'bg-light-green blue'
 		return (
 			<div className="">
 				<DocumentHead
@@ -18,13 +21,13 @@ class App extends React.Component {
 						}
 					]}
 				/>
-				<div id="main" className={`page ${pageName} code bg-light-green blue flex justify-center pa4-m w-100`}>
+				<div id="main" className={`page ${pageName} ${classNames} code flex justify-center pa4-m w-100 minh-100`}>
 					<div className="container w-80 w-90-m mw6-m mw8-l">
 						<Header />
 						<ReactCSSTransitionGroup
-							transitionName="example"
+							transitionName="fade"
 							transitionEnterTimeout={500}
-							transitionLeaveTimeout={300}>
+							transitionLeaveTimeout={1}>
 						{React.cloneElement(page, {
 							key: pageName
 						})}

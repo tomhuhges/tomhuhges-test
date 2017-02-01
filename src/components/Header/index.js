@@ -37,10 +37,10 @@ class Header extends React.Component {
 					</ul>
 				</div>
 				<ul className="nav-links blue list pr0 pb3-l flex justify-between w-100 w-50-l">
-					<li><Link to="/code" className="link underline-hover blue"># code</Link></li>
-					<li><Link to="/code" className="link underline-hover blue"># art</Link></li>
-					<li><Link to="/code" className="link underline-hover blue"># writing</Link></li>
-					<li><Link to="/code" className="link underline-hover blue"># link dump</Link></li>
+					<li><Link to="/code" id="code-link" className="link underline-hover blue"># code</Link></li>
+					<li><Link to="/code" id="art-link" className="link underline-hover blue"># art</Link></li>
+					<li><Link to="/code" id="writing-link" className="link underline-hover blue"># writing</Link></li>
+					<li><Link to="/code" id="linkdump-link" className="link underline-hover blue"># link dump</Link></li>
 				</ul>
 			</nav>
 		)
