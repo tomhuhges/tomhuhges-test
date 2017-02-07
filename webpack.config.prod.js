@@ -42,6 +42,9 @@ export default function prod (options) {
         from: './src/assets',
         to: 'assets'
       },{
+        from: './src/public',
+        to: ''
+      },{
         from: 'CNAME'
       }], {
         ignore: ['*.DS_Store', '*.png', '*.gif', '*.jpg', '*.jpeg']

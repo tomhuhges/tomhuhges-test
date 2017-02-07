@@ -2,6 +2,7 @@ import React from 'react'
 import pitchit from '../../assets/img/pitchit.png'
 import springwise from '../../assets/img/springwise.png'
 import caret from '../../assets/img/caret.png'
+import todooblr from '../../assets/img/todooblr.png'
 import tomhuhgesbot from '../../assets/img/tomhuhgesbot.png'
 
 class CodePage extends React.Component {
@@ -48,6 +49,7 @@ class CodePage extends React.Component {
 						<p>vanilla ES2015</p>
 						<p>Nov 2016</p>
 						<p>a stupid gamified todo app</p>
+						<img src={todooblr} />
 					</article>
 					<article className="pa4 pt1 mb5 bg-white w-30-l">
 						<h2>tomhuhgesbot</h2>
