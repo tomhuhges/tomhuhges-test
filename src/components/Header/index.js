@@ -14,7 +14,8 @@ class Header extends React.Component {
 							to="/"
 							id="logo"
 							className="astloch blue link f-subheadline flex justify-center justify-start-l"
-						>tom hughes
+							onClick={this.props.updateTheme.bind(null, 'home')}>
+							tom hughes
 					</Link>
 					</h1>
 					<h2 className="flex justify-center justify-start-l">js engineer<span className="astloch">&nbsp;&amp;&nbsp;</span>designer</h2>
@@ -25,22 +26,22 @@ class Header extends React.Component {
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/tomhuhges" className="menu-item">
+							<a href="https://github.com/tomhuhges" className="menu-item" target="_blank">
 								<GithubIcon className="w2" />
 							</a>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com/in/tom-hughes-57b12080" className="menu-item">
+							<a href="https://www.linkedin.com/in/tom-hughes-57b12080" className="menu-item" target="_blank">
 								<LinkedinIcon className="w2" />
 							</a>
 						</li>
 					</ul>
 				</div>
-				<ul className="nav-links blue list pr0 pb3-l flex justify-between w-100 w-50-l">
-					<li><Link to="/code" id="code-link" className="link underline-hover blue"># code</Link></li>
-					<li><Link to="/code" id="art-link" className="link underline-hover blue"># art</Link></li>
-					<li><Link to="/code" id="writing-link" className="link underline-hover blue"># writing</Link></li>
-					<li><Link to="/code" id="linkdump-link" className="link underline-hover blue"># link dump</Link></li>
+				<ul className="nav-links blue list pr0 pb3-l flex justify-between w-100 w-475-l">
+					<li><Link to="/code" id="code-link" className="link underline-hover blue" onClick={this.props.updateTheme.bind(null, 'code')}># code</Link></li>
+					<li><a href="http://crap.tomhuhges.com/" id="art-link" className="link underline-hover blue" target="_blank"># art</a></li>
+					{/* <li><Link to="/code" id="writing-link" className="link underline-hover blue"># writing</Link></li> */}
+					<li><a href="http://linkdump.tomhuhges.com/" id="linkdump-link" className="link underline-hover blue" target="_blank"># link dump</a></li>
 				</ul>
 			</nav>
 		)
