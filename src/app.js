@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import Meta from './meta.js'
 import Header from './components/Header'
 
 class App extends React.Component {
@@ -22,7 +21,6 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Meta />
 				<div
 					id="main"
 					className={`page ${this.state.classNames} code flex justify-center pa4-m w-100 minh-100`}>
