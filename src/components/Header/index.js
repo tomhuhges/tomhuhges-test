@@ -41,7 +41,7 @@ class Header extends React.Component {
 					<li><Link to="/code" id="code-link" className="link underline-hover blue" onClick={this.props.updateTheme.bind(null, 'code')}># code</Link></li>
 					<li><a href="http://crap.tomhuhges.com/" id="art-link" className="link underline-hover blue" target="_blank"># art</a></li>
 					{/* <li><Link to="/code" id="writing-link" className="link underline-hover blue"># writing</Link></li> */}
-					<li><a href="http://linkdump.tomhuhges.com/" id="linkdump-link" className="link underline-hover blue" target="_blank"># link dump</a></li>
+					<li><Link to="/linkdump" id="linkdump-link" className="link underline-hover blue" onClick={this.props.updateTheme.bind(null, 'linkdump')}># link dump</Link></li>
 				</ul>
 			</nav>
 		)

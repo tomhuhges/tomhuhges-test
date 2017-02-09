@@ -9,10 +9,6 @@ class CodePage extends React.Component {
 	constructor(props) {
 		super(props)
 	}
-	componentDidMount() {
-		console.log(this.props)
-		//this.props.updateTheme()
-	}
 	render() {
 		return (
 			<div className="content">

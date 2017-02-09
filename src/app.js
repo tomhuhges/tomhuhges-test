@@ -13,9 +13,9 @@ class App extends React.Component {
 		this.getThemeClass(location)
 	}
 	getThemeClass(page) {
-		const classNames = page === 'code'
-			? 'bg-yellow dark-red'
-			: 'bg-light-green blue'
+		const classNames = page === 'code' ? 'bg-yellow dark-red' :
+		page === 'linkdump' ? 'bg-white blue' :
+		'bg-light-green blue'
 		this.setState({ classNames })
 	}
 	render() {
